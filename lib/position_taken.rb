@@ -15,3 +15,4 @@ def position_taken?(board, x)
      taken = true
   end
   taken
+end
