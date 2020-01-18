@@ -8,10 +8,10 @@ def display_board(board)
 end
 
 def position_taken?(board, x)
-  if board[x] == "X" || "O"  
-    true 
-  else 
-    false   
+  taken = nil
+  if (board[x] ==  " " || board[x] == "" || board[x] == nil)
+     taken = false
+  else
+     taken = true
   end
-  
-end 
+  taken
