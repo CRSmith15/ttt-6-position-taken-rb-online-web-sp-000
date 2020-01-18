@@ -8,7 +8,7 @@ def display_board(board)
 end
 
 def position_taken?(board, x)
-  !if board[x] == nil 
+  !if board[x] != "X" || "O"  
     board << x
   else 
     nil 
