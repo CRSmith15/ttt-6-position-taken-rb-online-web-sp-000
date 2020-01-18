@@ -11,7 +11,7 @@ def position_taken?(board, x)
   !if board[x] != "X" || "O"  
     board << x
   else 
-    nil 
+    true  
   end
   
 end 
