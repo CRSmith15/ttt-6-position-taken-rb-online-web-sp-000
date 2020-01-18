@@ -7,6 +7,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def position_taken?(x)
+def position_taken?(board, x)
   
 end 
